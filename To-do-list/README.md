@@ -16,6 +16,6 @@ A simple and efficient To-Do List application to help you stay organized and tra
 ## How to Use
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/to-do-list.git
+   git clone https://github.com/Mavia-Ahmed/to-do-list.git
 
 2. Check live project here: "https://beautiful-semifreddo-b85382.netlify.app/"
