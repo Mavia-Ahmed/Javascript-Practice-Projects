@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIAIC Class 06 Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .question {
+            margin-bottom: 15px;
+        }
+        .result {
+            font-weight: bold;
+            color: green;
+        }
+        .wrong {
+            color: red;
+        }
+        button {
+            display: block;
+            margin: auto;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #results {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>PIAIC Class 06 Quiz</h1>
+        <form id="quizForm">
+            <!-- Questions 1 - 10 -->
+            <div class="question">
+                <p>1. What is the first step in setting up GitHub?</p>
+                <input type="radio" name="q1" value="A"> A) Install VS Code<br>
+                <input type="radio" name="q1" value="B"> B) Sign up on GitHub<br>
+                <input type="radio" name="q1" value="C"> C) Create a new repository<br>
+                <input type="radio" name="q1" value="D"> D) Clone an existing repository<br>
+            </div>
+
+            <div class="question">
+                <p>2. What does the `git push origin` command do?</p>
+                <input type="radio" name="q2" value="A"> A) Pushes local commits to a remote repository<br>
+                <input type="radio" name="q2" value="B"> B) Pulls changes from a remote repository<br>
+                <input type="radio" name="q2" value="C"> C) Creates a new branch<br>
+                <input type="radio" name="q2" value="D"> D) Deletes a remote repository<br>
+            </div>
+
+            <div class="question">
+                <p>3. How do you open a file in VS Code using the terminal?</p>
+                <input type="radio" name="q3" value="A"> A) open file.py<br>
+                <input type="radio" name="q3" value="B"> B) code .<br>
+                <input type="radio" name="q3" value="C"> C) code open file.py<br>
+                <input type="radio" name="q3" value="D"> D) run file.py<br>
+            </div>
+
+            <div class="question">
+                <p>4. Which Python function returns the data type of a variable?</p>
+                <input type="radio" name="q4" value="A"> A) type()<br>
+                <input type="radio" name="q4" value="B"> B) id()<br>
+                <input type="radio" name="q4" value="C"> C) print()<br>
+                <input type="radio" name="q4" value="D"> D) dir()<br>
+            </div>
+
+            <div class="question">
+                <p>5. What is the purpose of a dynamic data type in Python?</p>
+                <input type="radio" name="q5" value="A"> A) Store only string data<br>
+                <input type="radio" name="q5" value="B"> B) Store and change the type of any data<br>
+                <input type="radio" name="q5" value="C"> C) Store fixed data types<br>
+                <input type="radio" name="q5" value="D"> D) Limit changes to the stored data type<br>
+            </div>
+
+            <div class="question">
+                <p>6. How do you convert a string to lowercase in Python?</p>
+                <input type="radio" name="q6" value="A"> A) string.lower()<br>
+                <input type="radio" name="q6" value="B"> B) string.capitalize()<br>
+                <input type="radio" name="q6" value="C"> C) string.upper()<br>
+                <input type="radio" name="q6" value="D"> D) string.reverse()<br>
+            </div>
+
+            <div class="question">
+                <p>7. What is string concatenation in Python?</p>
+                <input type="radio" name="q7" value="A"> A) Adding two strings together<br>
+                <input type="radio" name="q7" value="B"> B) Multiplying two strings<br>
+                <input type="radio" name="q7" value="C"> C) Reversing a string<br>
+                <input type="radio" name="q7" value="D"> D) None of the above<br>
+            </div>
+
+            <div class="question">
+                <p>8. What does the `id()` function return?</p>
+                <input type="radio" name="q8" value="A"> A) The ID of the directory<br>
+                <input type="radio" name="q8" value="B"> B) The unique identifier of an object<br>
+                <input type="radio" name="q8" value="C"> C) The file's location<br>
+                <input type="radio" name="q8" value="D"> D) The data type<br>
+            </div>
+
+            <div class="question">
+                <p>9. How do you convert all letters in a string to uppercase?</p>
+                <input type="radio" name="q9" value="A"> A) string.upper()<br>
+                <input type="radio" name="q9" value="B"> B) string.lower()<br>
+                <input type="radio" name="q9" value="C"> C) string.capitalize()<br>
+                <input type="radio" name="q9" value="D"> D) string.reverse()<br>
+            </div>
+
+            <div class="question">
+                <p>10. What is the purpose of the `git checkout` command?</p>
+                <input type="radio" name="q10" value="A"> A) Remove files from VS Code workspace<br>
+                <input type="radio" name="q10" value="B"> B) Move to a different branch or commit<br>
+                <input type="radio" name="q10" value="C"> C) Clone a repository<br>
+                <input type="radio" name="q10" value="D"> D) Merge branches<br>
+            </div>
+
+            <div class="question">
+                <p>11. What does the `dir()` function in Python do?</p>
+                <input type="radio" name="q11" value="A"> A) Displays the directory path<br>
+                <input type="radio" name="q11" value="B"> B) Lists the attributes and methods of an object<br>
+                <input type="radio" name="q11" value="C"> C) Deletes a directory<br>
+                <input type="radio" name="q11" value="D"> D) Opens a directory<br>
+            </div>
+
+            <div class="question">
+                <p>12. What is the correct way to create a Python function?</p>
+                <input type="radio" name="q12" value="A"> A) function myFunc():<br>
+                <input type="radio" name="q12" value="B"> B) def myFunc():<br>
+                <input type="radio" name="q12" value="C"> C) create myFunc():<br>
+                <input type="radio" name="q12" value="D"> D) declare myFunc():<br>
+            </div>
+            
+            <div class="question">
+                <p>13. How do you create a new repository using GitHub Desktop?</p>
+                <input type="radio" name="q13" value="A"> A) Create a folder on GitHub<br>
+                <input type="radio" name="q13" value="B"> B) Use "File" > "New Repository" in GitHub Desktop<br>
+                <input type="radio" name="q13" value="C"> C) Use the terminal command `git init`<br>
+                <input type="radio" name="q13" value="D"> D) Right-click on a folder and select "Create Repository"<br>
+            </div>
+            
+            <div class="question">
+                <p>14. What does the `print()` function in Python do?</p>
+                <input type="radio" name="q14" value="A"> A) Prints documents<br>
+                <input type="radio" name="q14" value="B"> B) Displays output in the console<br>
+                <input type="radio" name="q14" value="C"> C) Checks for errors<br>
+                <input type="radio" name="q14" value="D"> D) Returns a list of data types<br>
+            </div>
+            
+            <div class="question">
+                <p>15. What is the purpose of the `commit` command in Git?</p>
+                <input type="radio" name="q15" value="A"> A) Save changes to the remote repository<br>
+                <input type="radio" name="q15" value="B"> B) Record changes to the local repository<br>
+                <input type="radio" name="q15" value="C"> C) Upload files to the GitHub server<br>
+                <input type="radio" name="q15" value="D"> D) Create a new branch<br>
+            </div>
+            
+            <div class="question">
+                <p>16. What is the correct way to define a static data type in Python?</p>
+                <input type="radio" name="q16" value="A"> A) age = 30<br>
+                <input type="radio" name="q16" value="B"> B) age: int = 30<br>
+                <input type="radio" name="q16" value="C"> C) define age 30<br>
+                <input type="radio" name="q16" value="D"> D) static age = 30<br>
+            </div>
+            
+            <div class="question">
+                <p>17. What is the purpose of the `code .` command in the terminal?</p>
+                <input type="radio" name="q17" value="A"> A) Run Python code<br>
+                <input type="radio" name="q17" value="B"> B) Open VS Code from the terminal<br>
+                <input type="radio" name="q17" value="C"> C) Close VS Code<br>
+                <input type="radio" name="q17" value="D"> D) Create a new Python file<br>
+            </div>
+            
+            <div class="question">
+                <p>18. How do you capitalize the first letter of each word in a string in Python?</p>
+                <input type="radio" name="q18" value="A"> A) string.capitalize()<br>
+                <input type="radio" name="q18" value="B"> B) string.upper()<br>
+                <input type="radio" name="q18" value="C"> C) string.title()<br>
+                <input type="radio" name="q18" value="D"> D) string.reverse()<br>
+            </div>
+            
+            <div class="question">
+                <p>19. Which operator is used for string concatenation in Python?</p>
+                <input type="radio" name="q19" value="A"> A) +<br>
+                <input type="radio" name="q19" value="B"> B) *<br>
+                <input type="radio" name="q19" value="C"> C) -<br>
+                <input type="radio" name="q19" value="D"> D) /<br>
+            </div>
+            
+            <div class="question">
+                <p>20. What is the result of the following code: `print("Hello" + " " + "World")`?</p>
+                <input type="radio" name="q20" value="A"> A) HelloWorld<br>
+                <input type="radio" name="q20" value="B"> B) Hello World<br>
+                <input type="radio" name="q20" value="C"> C) Hello+World<br>
+                <input type="radio" name="q20" value="D"> D) None of the above<br>
+            </div>
+
+            <div class="question">
+                <p>21. What does the `id()` function return in Python?</p>
+                <input type="radio" name="q21" value="A"> A) The ID of the process<br>
+                <input type="radio" name="q21" value="B"> B) The memory address of an object<br>
+                <input type="radio" name="q21" value="C"> C) The type of an object<br>
+                <input type="radio" name="q21" value="D"> D) The name of the file<br>
+            </div>
+            
+            <div class="question">
+                <p>22. How do you remove a repository using GitHub Desktop?</p>
+                <input type="radio" name="q22" value="A"> A) Use the `git rm` command<br>
+                <input type="radio" name="q22" value="B"> B) Right-click on the repository and select "Remove"<br>
+                <input type="radio" name="q22" value="C"> C) Select "Delete Repository" from the GitHub Desktop menu<br>
+                <input type="radio" name="q22" value="D"> D) Use the `git commit` command<br>
+            </div>
+            
+            <div class="question">
+                <p>23. What command is used to restore a file removed from the VS Code workspace using Git?</p>
+                <input type="radio" name="q23" value="A"> A) git restore<br>
+                <input type="radio" name="q23" value="B"> B) git commit<br>
+                <input type="radio" name="q23" value="C"> C) git reset<br>
+                <input type="radio" name="q23" value="D"> D) git checkout<br>
+            </div>
+            
+            <div class="question">
+                <p>24. What does the `.upper()` method in Python do?</p>
+                <input type="radio" name="q24" value="A"> A) Converts all letters to lowercase<br>
+                <input type="radio" name="q24" value="B"> B) Converts all letters to uppercase<br>
+                <input type="radio" name="q24" value="C"> C) Capitalizes the first letter of each word<br>
+                <input type="radio" name="q24" value="D"> D) Reverses a string<br>
+            </div>
+            
+            <div class="question">
+                <p>25. What is the primary use of the `dir()` function?</p>
+                <input type="radio" name="q25" value="A"> A) Display the current directory<br>
+                <input type="radio" name="q25" value="B"> B) List the methods and attributes of an object<br>
+                <input type="radio" name="q25" value="C"> C) Check the version of Python<br>
+                <input type="radio" name="q25" value="D"> D) None of the above<br>
+            </div>
+
+            <button type="button" onclick="submitQuiz()">Submit Quiz</button>
+            <h2>Results:</h2>
+            <div id="results"></div>
+        </form>
+    </div>
+    <script>
+        function submitQuiz() {
+            // Define the correct answers
+            const correctAnswers = {
+                q1: 'B',
+                q2: 'A',
+                q3: 'B',
+                q4: 'A',
+                q5: 'B',
+                q6: 'A',
+                q7: 'A',
+                q8: 'B',
+                q9: 'A',
+                q10: 'B',
+                q11: 'B',
+                q12: 'B',
+                q13: 'B',
+                q14: 'B',
+                q15: 'B',
+                q16: 'B',
+                q17: 'B',
+                q18: 'C',
+                q19: 'A',
+                q20: 'B',
+                q21: 'B',
+                q22: 'C',
+                q23: 'D',
+                q24: 'B',
+                q25: 'B'
+                // Add the correct answers for remaining questions
+            };
+
+            const form = document.getElementById('quizForm');
+            const resultsDiv = document.getElementById('results');
+            let score = 0;
+            let total = 50;
+            let marksPerQuestion = total / 25;
+
+            resultsDiv.innerHTML = ''; // Clear previous results
+
+            for (let i = 1; i <= 25; i++) {  // Change '2' to 25 for all questions
+                const question = `q${i}`;
+                const userAnswer = form[question].value;
+                
+                if (userAnswer === correctAnswers[question]) {
+                    score += marksPerQuestion;
+                    resultsDiv.innerHTML += `<p class="result">Question ${i}: Correct</p>`;
+                } else {
+                    resultsDiv.innerHTML += `<p class="wrong">Question ${i}: Wrong (Correct Answer: ${correctAnswers[question]})</p>`;
+                }
+            }
+
+            resultsDiv.innerHTML += `<h3>Your Score: ${score} / ${total}</h3>`;
+        }
+    </script>
+</body>
+</html>

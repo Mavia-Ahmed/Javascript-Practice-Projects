@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIAIC Class 04 Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .question {
+            margin-bottom: 15px;
+        }
+        .result {
+            font-weight: bold;
+            color: green;
+        }
+        .wrong {
+            color: red;
+        }
+        button {
+            display: block;
+            margin: auto;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #results {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>PIAIC Class 04 Quiz</h1>
+        <form id="quizForm">
+            <!-- Questions 1 - 10 -->
+            <div class="question">
+                <p>1. What is the primary function of Software Defined Networking (SDN)?</p>
+                <input type="radio" name="q1" value="A"> A) Hardware control<br>
+                <input type="radio" name="q1" value="B"> B) Centralized software control of networks<br>
+                <input type="radio" name="q1" value="C"> C) Network encryption<br>
+                <input type="radio" name="q1" value="D"> D) Cloud storage<br>
+            </div>
+
+            <div class="question">
+                <p>2. How does Python serve as an interface language?</p>
+                <input type="radio" name="q2" value="A"> A) It compiles machine code<br>
+                <input type="radio" name="q2" value="B"> B) It bridges communication between systems<br>
+                <input type="radio" name="q2" value="C"> C) It only creates front-end applications<br>
+                <input type="radio" name="q2" value="D"> D) None of the above<br>
+            </div>
+
+            <div class="question">
+                <p>3. Which of the following is NOT an application of Python?</p>
+                <input type="radio" name="q3" value="A"> A) Web Development<br>
+                <input type="radio" name="q3" value="B"> B) Mobile Application Development<br>
+                <input type="radio" name="q3" value="C"> C) Desktop Applications<br>
+                <input type="radio" name="q3" value="D"> D) Command Line Interface (CLI) tools<br>
+            </div>
+
+            <div class="question">
+                <p>4. What is FastAPI primarily used for?</p>
+                <input type="radio" name="q4" value="A"> A) Building web frameworks<br>
+                <input type="radio" name="q4" value="B"> B) Developing high-performance APIs<br>
+                <input type="radio" name="q4" value="C"> C) Creating mobile apps<br>
+                <input type="radio" name="q4" value="D"> D) None of the above<br>
+            </div>
+
+            <div class="question">
+                <p>5. Which technology is NOT commonly used for creating web interfaces with Python?</p>
+                <input type="radio" name="q5" value="A"> A) HTML<br>
+                <input type="radio" name="q5" value="B"> B) JSON<br>
+                <input type="radio" name="q5" value="C"> C) CSS<br>
+                <input type="radio" name="q5" value="D"> D) Assembly language<br>
+            </div>
+
+            <div class="question">
+                <p>6. What is the purpose of Streamlit in Python development?</p>
+                <input type="radio" name="q6" value="A"> A) Web frameworks for REST APIs<br>
+                <input type="radio" name="q6" value="B"> B) Custom web apps for machine learning and data science<br>
+                <input type="radio" name="q6" value="C"> C) Database creation<br>
+                <input type="radio" name="q6" value="D"> D) None of the above<br>
+            </div>
+
+            <div class="question">
+                <p>7. What programming language is primarily used for AI and deep learning?</p>
+                <input type="radio" name="q7" value="A"> A) Java<br>
+                <input type="radio" name="q7" value="B"> B) Python<br>
+                <input type="radio" name="q7" value="C"> C) C++<br>
+                <input type="radio" name="q7" value="D"> D) Ruby<br>
+            </div>
+
+            <div class="question">
+                <p>8. What is the purpose of the Zen of Python?</p>
+                <input type="radio" name="q8" value="A"> A) To guide developers in writing Python code<br>
+                <input type="radio" name="q8" value="B"> B) To increase the speed of Python execution<br>
+                <input type="radio" name="q8" value="C"> C) To add machine learning capabilities<br>
+                <input type="radio" name="q8" value="D"> D) All of the above<br>
+            </div>
+
+            <div class="question">
+                <p>9. What is the main difference between a compiler and an interpreter?</p>
+                <input type="radio" name="q9" value="A"> A) Compiler processes code line by line<br>
+                <input type="radio" name="q9" value="B"> B) Interpreter processes code in one go<br>
+                <input type="radio" name="q9" value="C"> C) Interpreter processes code line by line<br>
+                <input type="radio" name="q9" value="D"> D) Compiler creates CLI tools<br>
+            </div>
+
+            <div class="question">
+                <p>10. Which of the following tools allows you to write Python code in a browser?</p>
+                <input type="radio" name="q10" value="A"> A) VS Code<br>
+                <input type="radio" name="q10" value="B"> B) Google Colab<br>
+                <input type="radio" name="q10" value="C"> C) PyCharm<br>
+                <input type="radio" name="q10" value="D"> D) Sublime Text<br>
+            </div>
+
+            <div class="question">
+                <p>11. What is the purpose of a Dockerfile?</p>
+                <input type="radio" name="q11" value="A"> A) It defines the environment needed for an application<br>
+                <input type="radio" name="q11" value="B"> B) It runs Python scripts directly<br>
+                <input type="radio" name="q11" value="C"> C) It installs cloud services<br>
+                <input type="radio" name="q11" value="D"> D) It serves as a web server<br>
+            </div>
+            
+            <div class="question">
+                <p>12. Which command is used to build a Docker image?</p>
+                <input type="radio" name="q12" value="A"> A) docker create<br>
+                <input type="radio" name="q12" value="B"> B) docker build<br>
+                <input type="radio" name="q12" value="C"> C) docker run<br>
+                <input type="radio" name="q12" value="D"> D) docker exec<br>
+            </div>
+            
+            <div class="question">
+                <p>13. What command runs a container from a Docker image?</p>
+                <input type="radio" name="q13" value="A"> A) docker run<br>
+                <input type="radio" name="q13" value="B"> B) docker build<br>
+                <input type="radio" name="q13" value="C"> C) docker start<br>
+                <input type="radio" name="q13" value="D"> D) docker stop<br>
+            </div>
+            
+            <div class="question">
+                <p>14. What does the WORKDIR command in a Dockerfile do?</p>
+                <input type="radio" name="q14" value="A"> A) Sets the working directory inside the container<br>
+                <input type="radio" name="q14" value="B"> B) Copies files into a directory<br>
+                <input type="radio" name="q14" value="C"> C) Runs Python scripts<br>
+                <input type="radio" name="q14" value="D"> D) Creates an image<br>
+            </div>
+            
+            <div class="question">
+                <p>15. What is the role of CMD in a Dockerfile?</p>
+                <input type="radio" name="q15" value="A"> A) It specifies the default command to run when the container starts<br>
+                <input type="radio" name="q15" value="B"> B) It builds a Docker image<br>
+                <input type="radio" name="q15" value="C"> C) It creates a new Python environment<br>
+                <input type="radio" name="q15" value="D"> D) It stops the container<br>
+            </div>
+            
+            <div class="question">
+                <p>16. In Python, what is the significance of using frameworks like Django or Flask?</p>
+                <input type="radio" name="q16" value="A"> A) They are used to build web applications<br>
+                <input type="radio" name="q16" value="B"> B) They are used for AI models<br>
+                <input type="radio" name="q16" value="C"> C) They compile Python code<br>
+                <input type="radio" name="q16" value="D"> D) They manage databases<br>
+            </div>
+            
+            <div class="question">
+                <p>17. What command in Docker is used to copy files into a container during the build process?</p>
+                <input type="radio" name="q17" value="A"> A) COPY<br>
+                <input type="radio" name="q17" value="B"> B) ADD<br>
+                <input type="radio" name="q17" value="C"> C) MOVE<br>
+                <input type="radio" name="q17" value="D"> D) RUN<br>
+            </div>
+            
+            <div class="question">
+                <p>18. What is the purpose of Large Language Models (LLMs) in AI?</p>
+                <input type="radio" name="q18" value="A"> A) To generate and understand human-like text<br>
+                <input type="radio" name="q18" value="B"> B) To optimize hardware<br>
+                <input type="radio" name="q18" value="C"> C) To improve database indexing<br>
+                <input type="radio" name="q18" value="D"> D) To deploy Python environments<br>
+            </div>
+            
+            <div class="question">
+                <p>19. Which Python framework is best suited for developing APIs?</p>
+                <input type="radio" name="q19" value="A"> A) FastAPI<br>
+                <input type="radio" name="q19" value="B"> B) Django<br>
+                <input type="radio" name="q19" value="C"> C) Flask<br>
+                <input type="radio" name="q19" value="D"> D) PyTorch<br>
+            </div>
+            
+            <div class="question">
+                <p>20. Which command is used to run a Python script in a Docker container?</p>
+                <input type="radio" name="q20" value="A"> A) CMD ["python", "script.py"]<br>
+                <input type="radio" name="q20" value="B"> B) RUN ["python", "script.py"]<br>
+                <input type="radio" name="q20" value="C"> C) EXE ["python", "script.py"]<br>
+                <input type="radio" name="q20" value="D"> D) INIT ["python", "script.py"]<br>
+            </div>
+            
+            <div class="question">
+                <p>21. In Python, what is the purpose of virtual environments?</p>
+                <input type="radio" name="q21" value="A"> A) To manage Python dependencies for different projects<br>
+                <input type="radio" name="q21" value="B"> B) To speed up the execution of Python scripts<br>
+                <input type="radio" name="q21" value="C"> C) To secure Python projects from malware<br>
+                <input type="radio" name="q21" value="D"> D) To run Docker images<br>
+            </div>
+            
+            <div class="question">
+                <p>22. What is a Python wheel (.whl) file used for?</p>
+                <input type="radio" name="q22" value="A"> A) Installing Python packages<br>
+                <input type="radio" name="q22" value="B"> B) Running Python scripts<br>
+                <input type="radio" name="q22" value="C"> C) Creating Python virtual environments<br>
+                <input type="radio" name="q22" value="D"> D) Building web applications<br>
+            </div>
+            
+            <div class="question">
+                <p>23. What does the command `pip freeze` do in Python?</p>
+                <input type="radio" name="q23" value="A"> A) Shows the Python version<br>
+                <input type="radio" name="q23" value="B"> B) Lists installed Python packages and their versions<br>
+                <input type="radio" name="q23" value="C"> C) Uninstalls a Python package<br>
+                <input type="radio" name="q23" value="D"> D) Pauses Python script execution<br>
+            </div>
+            
+            <div class="question">
+                <p>24. Which of the following is a method to improve the accuracy of a machine learning model?</p>
+                <input type="radio" name="q24" value="A"> A) Data augmentation<br>
+                <input type="radio" name="q24" value="B"> B) Decreasing the size of the dataset<br>
+                <input type="radio" name="q24" value="C"> C) Limiting the number of epochs<br>
+                <input type="radio" name="q24" value="D"> D) Using only one type of algorithm<br>
+            </div>
+            
+            <div class="question">
+                <p>25. In Machine Learning, what does hyperparameter tuning refer to?</p>
+                <input type="radio" name="q25" value="A"> A) Optimizing the parameters of a machine learning model<br>
+                <input type="radio" name="q25" value="B"> B) Tuning the hardware for faster computation<br>
+                <input type="radio" name="q25" value="C"> C) Writing code to pre-process data<br>
+                <input type="radio" name="q25" value="D"> D) Testing the model in production<br>
+            </div>            
+
+            <button type="button" onclick="submitQuiz()">Submit Quiz</button>
+            <h2>Results:</h2>
+            <div id="results"></div>
+        </form>
+    </div>
+    <script>
+        function submitQuiz() {
+            // Define the correct answers
+            const correctAnswers = {
+                q1: 'B',
+                q2: 'B',
+                q3: 'B',
+                q4: 'B',
+                q5: 'D',
+                q6: 'B',
+                q7: 'B',
+                q8: 'A',
+                q9: 'C',
+                q10: 'B',
+                q11: 'A',
+                q12: 'B',
+                q13: 'A',
+                q14: 'A',
+                q15: 'A',
+                q16: 'A',
+                q17: 'A',
+                q18: 'A',
+                q19: 'A',
+                q20: 'A',
+                q21: 'A',
+                q22: 'A',
+                q23: 'B',
+                q24: 'A',
+                q25: 'A'
+                // Add the correct answers for remaining questions
+            };
+
+            const form = document.getElementById('quizForm');
+            const resultsDiv = document.getElementById('results');
+            let score = 0;
+            let total = 50;
+            let marksPerQuestion = total / 25;
+
+            resultsDiv.innerHTML = ''; // Clear previous results
+
+            for (let i = 1; i <= 25; i++) {  // Change '2' to 25 for all questions
+                const question = `q${i}`;
+                const userAnswer = form[question].value;
+                
+                if (userAnswer === correctAnswers[question]) {
+                    score += marksPerQuestion;
+                    resultsDiv.innerHTML += `<p class="result">Question ${i}: Correct</p>`;
+                } else {
+                    resultsDiv.innerHTML += `<p class="wrong">Question ${i}: Wrong (Correct Answer: ${correctAnswers[question]})</p>`;
+                }
+            }
+
+            resultsDiv.innerHTML += `<h3>Your Score: ${score} / ${total}</h3>`;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIAIC Class 02 Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .question {
+            margin-bottom: 15px;
+        }
+        .result {
+            font-weight: bold;
+            color: green;
+        }
+        .wrong {
+            color: red;
+        }
+        button {
+            display: block;
+            margin: auto;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #results {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>PIAIC Class 02 Quiz</h1>
+        <form id="quizForm">
+            <!-- Questions 1 - 10 -->
+            <div class="question">
+                <p>1. What are the primary benefits of using microservices architecture over monolithic architecture?</p>
+                <input type="radio" name="q1" value="A"> A) Easier to scale and deploy individual components<br>
+                <input type="radio" name="q1" value="B"> B) Reduced code complexity<br>
+                <input type="radio" name="q1" value="C"> C) Increased fault tolerance<br>
+                <input type="radio" name="q1" value="D"> D) All of the above<br>
+            </div>
+
+            <div class="question">
+                <p>2. How does Docker help with containerization in software development?</p>
+                <input type="radio" name="q2" value="A"> A) By virtualizing the hardware<br>
+                <input type="radio" name="q2" value="B"> B) By creating isolated environments for code execution<br>
+                <input type="radio" name="q2" value="C"> C) By building databases<br>
+                <input type="radio" name="q2" value="D"> D) By developing UI/UX components<br>
+            </div>
+
+            <div class="question">
+                <p>3. What role does an API Gateway play in microservices architecture?</p>
+                <input type="radio" name="q3" value="A"> A) It provides a single point of entry for clients<br>
+                <input type="radio" name="q3" value="B"> B) It handles direct database connections<br>
+                <input type="radio" name="q3" value="C"> C) It manages data storage<br>
+                <input type="radio" name="q3" value="D"> D) It is used only for testing APIs<br>
+            </div>
+
+            <div class="question">
+                <p>4. Which of the following is NOT a benefit of using OpenAPI in API development?</p>
+                <input type="radio" name="q4" value="A"> A) Standardized API documentation<br>
+                <input type="radio" name="q4" value="B"> B) Automatic generation of client libraries<br>
+                <input type="radio" name="q4" value="C"> C) Improved integration with legacy systems<br>
+                <input type="radio" name="q4" value="D"> D) Built-in security and authentication<br>
+            </div>
+
+            <div class="question">
+                <p>5. What is the main reason for the popularity of REST APIs in cloud services?</p>
+                <input type="radio" name="q5" value="A"> A) They are the most secure API standard<br>
+                <input type="radio" name="q5" value="B"> B) They support easy integration with various web services<br>
+                <input type="radio" name="q5" value="C"> C) They are faster than SOAP APIs<br>
+                <input type="radio" name="q5" value="D"> D) They provide built-in authentication mechanisms<br>
+            </div>
+
+            <div class="question">
+                <p>6. Which tool is most commonly used to manage containerized applications in a production environment?</p>
+                <input type="radio" name="q6" value="A"> A) Docker<br>
+                <input type="radio" name="q6" value="B"> B) Kubernetes<br>
+                <input type="radio" name="q6" value="C"> C) GitHub<br>
+                <input type="radio" name="q6" value="D"> D) Apache<br>
+            </div>
+
+            <div class="question">
+                <p>7. What is the significance of using version control systems like Git in cloud-native development?</p>
+                <input type="radio" name="q7" value="A"> A) It allows real-time code compilation<br>
+                <input type="radio" name="q7" value="B"> B) It tracks changes to the codebase and facilitates collaboration<br>
+                <input type="radio" name="q7" value="C"> C) It builds container images for cloud deployments<br>
+                <input type="radio" name="q7" value="D"> D) It automates API testing<br>
+            </div>
+
+            <div class="question">
+                <p>8. Which of the following best describes Infrastructure as a Service (IaaS)?</p>
+                <input type="radio" name="q8" value="A"> A) It provides virtualized computing resources over the cloud<br>
+                <input type="radio" name="q8" value="B"> B) It offers cloud storage solutions<br>
+                <input type="radio" name="q8" value="C"> C) It provides a platform to develop, run, and manage applications<br>
+                <input type="radio" name="q8" value="D"> D) It helps create software development environments<br>
+            </div>
+
+            <div class="question">
+                <p>9. What is the main benefit of using Continuous Integration/Continuous Deployment (CI/CD) pipelines in DevOps?</p>
+                <input type="radio" name="q9" value="A"> A) Manual code integration and testing<br>
+                <input type="radio" name="q9" value="B"> B) Faster and automated software delivery<br>
+                <input type="radio" name="q9" value="C"> C) Better UI/UX for applications<br>
+                <input type="radio" name="q9" value="D"> D) Enhanced data storage<br>
+            </div>
+
+            <div class="question">
+                <p>10. Which cloud model is most suitable for organizations that want to use both public and private cloud infrastructure?</p>
+                <input type="radio" name="q10" value="A"> A) Public Cloud<br>
+                <input type="radio" name="q10" value="B"> B) Private Cloud<br>
+                <input type="radio" name="q10" value="C"> C) Hybrid Cloud<br>
+                <input type="radio" name="q10" value="D"> D) Community Cloud<br>
+            </div>
+
+            <!-- Questions 11 - 25 -->
+            <div class="question">
+                <p>11. What does the term 'container orchestration' refer to?</p>
+                <input type="radio" name="q11" value="A"> A) Creating Docker containers<br>
+                <input type="radio" name="q11" value="B"> B) Automating the deployment, scaling, and management of containers<br>
+                <input type="radio" name="q11" value="C"> C) Writing scripts for cloud applications<br>
+                <input type="radio" name="q11" value="D"> D) Setting up cloud storage<br>
+            </div>
+
+            <div class="question">
+                <p>12. Which programming language is most commonly used for developing APIs in cloud-based systems according to the PIAIC Class?</p>
+                <input type="radio" name="q12" value="A"> A) Python<br>
+                <input type="radio" name="q12" value="B"> B) JavaScript<br>
+                <input type="radio" name="q12" value="C"> C) PHP<br>
+                <input type="radio" name="q12" value="D"> D) C++<br>
+            </div>
+
+            <div class="question">
+                <p>13. Which cloud provider is known for its powerful Infrastructure as a Service (IaaS) and Platform as a Service (PaaS) offerings?</p>
+                <input type="radio" name="q13" value="A"> A) Microsoft Azure<br>
+                <input type="radio" name="q13" value="B"> B) AWS (Amazon Web Services)<br>
+                <input type="radio" name="q13" value="C"> C) Google Cloud<br>
+                <input type="radio" name="q13" value="D"> D) All of the above<br>
+            </div>
+
+            <div class="question">
+                <p>14. What is the key difference between serverless computing and traditional cloud services?</p>
+                <input type="radio" name="q14" value="A"> A) Serverless requires no backend logic<br>
+                <input type="radio" name="q14" value="B"> B) Serverless scales automatically based on demand without the need for infrastructure management<br>
+                <input type="radio" name="q14" value="C"> C) Serverless is only used for large enterprise applications<br>
+                <input type="radio" name="q14" value="D"> D) Serverless does not allow integration with APIs<br>
+            </div>
+
+            <div class="question">
+                <p>15. Which cloud model would you recommend for a company that wants to use fully managed applications without worrying about infrastructure?</p>
+                <input type="radio" name="q15" value="A"> A) IaaS (Infrastructure as a Service)<br>
+                <input type="radio" name="q15" value="B"> B) PaaS (Platform as a Service)<br>
+                <input type="radio" name="q15" value="C"> C) SaaS (Software as a Service)<br>
+                <input type="radio" name="q15" value="D"> D) Hybrid Cloud<br>
+            </div>
+
+            <div class="question">
+                <p>16. What does the term “scalability” mean in cloud computing?</p>
+                <input type="radio" name="q16" value="A"> A) The ability to change the pricing plan as needed<br>
+                <input type="radio" name="q16" value="B"> B) The ability of a system to handle increased load by adding more resources<br>
+                <input type="radio" name="q16" value="C"> C) The security of data in cloud servers<br>
+                <input type="radio" name="q16" value="D"> D) The automation of software testing<br>
+            </div>
+
+            <div class="question">
+                <p>17. Which of the following is a key benefit of using APIs in a cloud environment?</p>
+                <input type="radio" name="q17" value="A"> A) They require no maintenance<br>
+                <input type="radio" name="q17" value="B"> B) They enable easy integration with third-party services<br>
+                <input type="radio" name="q17" value="C"> C) They allow secure database access without credentials<br>
+                <input type="radio" name="q17" value="D"> D) They store user data<br>
+            </div>
+
+            <div class="question">
+                <p>18. Which tool is typically used to automate the provisioning of cloud infrastructure?</p>
+                <input type="radio" name="q18" value="A"> A) Terraform<br>
+                <input type="radio" name="q18" value="B"> B) Docker Compose<br>
+                <input type="radio" name="q18" value="C"> C) Jenkins<br>
+                <input type="radio" name="q18" value="D"> D) Visual Studio Code<br>
+            </div>
+
+            <div class="question">
+                <p>19. What is the primary purpose of using Virtual Machines (VMs) in cloud computing?</p>
+                <input type="radio" name="q19" value="A"> A) To run applications locally<br>
+                <input type="radio" name="q19" value="B"> B) To create isolated environments for multiple operating systems<br>
+                <input type="radio" name="q19" value="C"> C) To manage API gateways<br>
+                <input type="radio" name="q19" value="D"> D) To perform frontend development<br>
+            </div>
+
+            <div class="question">
+                <p>20. What is meant by API rate limiting?</p>
+                <input type="radio" name="q20" value="A"> A) Limiting the number of API requests per user<br>
+                <input type="radio" name="q20" value="B"> B) Increasing the API response time<br>
+                <input type="radio" name="q20" value="C"> C) Blocking API requests from certain regions<br>
+                <input type="radio" name="q20" value="D"> D) Limiting API documentation access<br>
+            </div>
+
+            <div class="question">
+                <p>21. In a cloud-native environment, what is a key benefit of using Kubernetes for container orchestration?</p>
+                <input type="radio" name="q21" value="A"> A) It provides built-in monitoring of databases<br>
+                <input type="radio" name="q21" value="B"> B) It handles the automatic scaling of containerized applications<br>
+                <input type="radio" name="q21" value="C"> C) It only works for local applications<br>
+                <input type="radio" name="q21" value="D"> D) It simplifies frontend development<br>
+            </div>
+
+            <div class="question">
+                <p>22. What is the main purpose of using DevOps in cloud environments?</p>
+                <input type="radio" name="q22" value="A"> A) To ensure manual code integration<br>
+                <input type="radio" name="q22" value="B"> B) To automate the development, testing, and deployment process<br>
+                <input type="radio" name="q22" value="C"> C) To increase the use of on-premise servers<br>
+                <input type="radio" name="q22" value="D"> D) To handle user requests<br>
+            </div>
+
+            <div class="question">
+                <p>23. Which database model is most commonly used for handling large, unstructured data in cloud environments?</p>
+                <input type="radio" name="q23" value="A"> A) Relational Database (SQL)<br>
+                <input type="radio" name="q23" value="B"> B) NoSQL Database<br>
+                <input type="radio" name="q23" value="C"> C) XML Database<br>
+                <input type="radio" name="q23" value="D"> D) Flat File<br>
+            </div>
+
+            <div class="question">
+                <p>24. Which term refers to deploying applications without having to manage infrastructure?</p>
+                <input type="radio" name="q24" value="A"> A) Serverless Computing<br>
+                <input type="radio" name="q24" value="B"> B) IaaS<br>
+                <input type="radio" name="q24" value="C"> C) PaaS<br>
+                <input type="radio" name="q24" value="D"> D) Hybrid Cloud<br>
+            </div>
+
+            <div class="question">
+                <p>25. What role does GitHub play in a cloud-native development environment?</p>
+                <input type="radio" name="q25" value="A"> Code version control and collaboration<br>
+                <input type="radio" name="q25" value="B"> Database management<br>
+                <input type="radio" name="q25" value="C"> Cloud infrastructure automation<br>
+                <input type="radio" name="q25" value="D"> API documentation generation<br>
+            </div>
+
+            <button type="button" onclick="submitQuiz()">Submit Quiz</button>
+            <h2>Results:</h2>
+            <div id="results"></div>
+        </form>
+    </div>
+    <script>
+        function submitQuiz() {
+            // Define the correct answers
+            const correctAnswers = {
+                q1: 'D',
+                q2: 'B',
+                q3: 'A',
+                q4: 'D',
+                q5: 'B',
+                q6: 'B',
+                q7: 'B',
+                q8: 'A',
+                q9: 'B',
+                q10: 'C',
+                q11: 'B',
+                q12: 'A',
+                q13: 'D',
+                q14: 'B',
+                q15: 'C',
+                q16: 'B',
+                q17: 'B',
+                q18: 'A',
+                q19: 'B',
+                q20: 'A',
+                q21: 'B',
+                q22: 'B',
+                q23: 'B',
+                q24: 'A',
+                q25: 'A'
+                // Add the correct answers for remaining questions
+            };
+
+            const form = document.getElementById('quizForm');
+            const resultsDiv = document.getElementById('results');
+            let score = 0;
+            let total = 50;
+            let marksPerQuestion = total / 25;
+
+            resultsDiv.innerHTML = ''; // Clear previous results
+
+            for (let i = 1; i <= 25; i++) {  // Change '2' to 25 for all questions
+                const question = `q${i}`;
+                const userAnswer = form[question].value;
+                
+                if (userAnswer === correctAnswers[question]) {
+                    score += marksPerQuestion;
+                    resultsDiv.innerHTML += `<p class="result">Question ${i}: Correct</p>`;
+                } else {
+                    resultsDiv.innerHTML += `<p class="wrong">Question ${i}: Wrong (Correct Answer: ${correctAnswers[question]})</p>`;
+                }
+            }
+
+            resultsDiv.innerHTML += `<h3>Your Score: ${score} / ${total}</h3>`;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIAIC Class 03 Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .question {
+            margin-bottom: 15px;
+        }
+        .result {
+            font-weight: bold;
+            color: green;
+        }
+        .wrong {
+            color: red;
+        }
+        button {
+            display: block;
+            margin: auto;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #results {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>PIAIC Class 03 Quiz</h1>
+        <form id="quizForm">
+            <!-- Questions 1 - 10 -->
+            <div class="question">
+                <p>1. What is the first step in effective prompt engineering?</p>
+                <input type="radio" name="q1" value="A"> A) Use Delimiters for Clarity<br>
+                <input type="radio" name="q1" value="B"> B) Provide Examples<br>
+                <input type="radio" name="q1" value="C"> C) Include Details in Your Query<br>
+                <input type="radio" name="q1" value="D"> D) Specify Task Steps<br>
+            </div>
+
+            <div class="question">
+                <p>2. What does the “echo” command do in Linux?</p>
+                <input type="radio" name="q2" value="A"> A) Displays the current directory<br>
+                <input type="radio" name="q2" value="B"> B) Prints text to the screen<br>
+                <input type="radio" name="q2" value="C"> C) Lists files in a directory<br>
+                <input type="radio" name="q2" value="D"> D) Changes the directory<br>
+            </div>
+
+            <div class="question">
+                <p>3. Which protocol helps the model summarize a field of study?</p>
+                <input type="radio" name="q3" value="A"> A) Chain of Thought<br>
+                <input type="radio" name="q3" value="B"> B) Few-Shot Prompting<br>
+                <input type="radio" name="q3" value="C"> C) Mind Mapping<br>
+                <input type="radio" name="q3" value="D"> D) Persona-based Prompting<br>
+            </div>
+
+            <div class="question">
+                <p>4. In Linux, which command is used to change directories?</p>
+                <input type="radio" name="q4" value="A"> A) cd<br>
+                <input type="radio" name="q4" value="B"> B) ls<br>
+                <input type="radio" name="q4" value="C"> C) mkdir<br>
+                <input type="radio" name="q4" value="D"> D) pwd<br>
+            </div>
+
+            <div class="question">
+                <p>5. Which of the following Docker commands is used to build a Docker image?</p>
+                <input type="radio" name="q5" value="A"> A) docker run<br>
+                <input type="radio" name="q5" value="B"> B) docker build<br>
+                <input type="radio" name="q5" value="C"> C) docker exec<br>
+                <input type="radio" name="q5" value="D"> D) docker pull<br>
+            </div>
+
+            <div class="question">
+                <p>6. Which approach helps refine prompt output for complex tasks?</p>
+                <input type="radio" name="q6" value="A"> A) Iterative Prompting<br>
+                <input type="radio" name="q6" value="B"> B) Prompt Injection<br>
+                <input type="radio" name="q6" value="C"> C) One-shot prompting<br>
+                <input type="radio" name="q6" value="D"> D) Contextual Biasing<br>
+            </div>
+
+            <div class="question">
+                <p>7. What does the “ls” command do in Linux?</p>
+                <input type="radio" name="q7" value="A"> A) List files and directories<br>
+                <input type="radio" name="q7" value="B"> B) Change permissions<br>
+                <input type="radio" name="q7" value="C"> C) Move a file<br>
+                <input type="radio" name="q7" value="D"> D) Create a directory<br>
+            </div>
+
+            <div class="question">
+                <p>8. How does Few-Shot Prompting differ from One-Shot Prompting?</p>
+                <input type="radio" name="q8" value="A"> A) Provides multiple examples to the model<br>
+                <input type="radio" name="q8" value="B"> B) Requires less training data<br>
+                <input type="radio" name="q8" value="C"> C) Limits examples to just one<br>
+                <input type="radio" name="q8" value="D"> D) Uses pretrained models only<br>
+            </div>
+
+            <div class="question">
+                <p>9. Which protocol is essential for interactive model-based tasks?</p>
+                <input type="radio" name="q9" value="A"> A) Dialogue-based prompting<br>
+                <input type="radio" name="q9" value="B"> B) Chain of Thought<br>
+                <input type="radio" name="q9" value="C"> C) Few-Shot Prompting<br>
+                <input type="radio" name="q9" value="D"> D) Data Augmentation<br>
+            </div>
+
+            <div class="question">
+                <p>10. What does "chmod" in Linux stand for?</p>
+                <input type="radio" name="q10" value="A"> A) Change mode (file permissions)<br>
+                <input type="radio" name="q10" value="B"> B) Change directory<br>
+                <input type="radio" name="q10" value="C"> C) Create mode<br>
+                <input type="radio" name="q10" value="D"> D) List file sizes<br>
+            </div>
+
+            <div class="question">
+                <p>11. What command is used in Linux to create a new directory?</p>
+                <input type="radio" name="q11" value="A"> A) cd<br>
+                <input type="radio" name="q11" value="B"> B) mkdir<br>
+                <input type="radio" name="q11" value="C"> C) rm<br>
+                <input type="radio" name="q11" value="D"> D) touch<br>
+            </div>
+
+            <div class="question">
+                <p>12. What is Few-Shot learning primarily used for in AI models?</p>
+                <input type="radio" name="q12" value="A"> A) Generating random data<br>
+                <input type="radio" name="q12" value="B"> B) Training models with minimal examples<br>
+                <input type="radio" name="q12" value="C"> C) Repetitive training of the same data<br>
+                <input type="radio" name="q12" value="D"> D) Testing different prompts<br>
+            </div>
+
+            <div class="question">
+                <p>13. In Docker, what command is used to stop a running container?</p>
+                <input type="radio" name="q13" value="A"> A) docker stop<br>
+                <input type="radio" name="q13" value="B"> B) docker run<br>
+                <input type="radio" name="q13" value="C"> C) docker build<br>
+                <input type="radio" name="q13" value="D"> D) docker exec<br>
+            </div>
+
+            <div class="question">
+                <p>14. What command is used to view hidden files in Linux?</p>
+                <input type="radio" name="q14" value="A"> A) ls -a<br>
+                <input type="radio" name="q14" value="B"> B) ls -h<br>
+                <input type="radio" name="q14" value="C"> C) pwd<br>
+                <input type="radio" name="q14" value="D"> D) cd -h<br>
+            </div>
+
+            <div class="question">
+                <p>15. What does the "chmod" command in Linux do?</p>
+                <input type="radio" name="q15" value="A"> A) Change the mode of file permissions<br>
+                <input type="radio" name="q15" value="B"> B) List files<br>
+                <input type="radio" name="q15" value="C"> C) Create a new file<br>
+                <input type="radio" name="q15" value="D"> D) Rename files<br>
+            </div>
+
+            <div class="question">
+                <p>16. What is an advantage of using Docker for deployment?</p>
+                <input type="radio" name="q16" value="A"> A) Easy replication of environments<br>
+                <input type="radio" name="q16" value="B"> B) Makes a system faster<br>
+                <input type="radio" name="q16" value="C"> C) Limits container scaling<br>
+                <input type="radio" name="q16" value="D"> D) Builds desktop applications<br>
+            </div>
+
+            <div class="question">
+                <p>17. In prompt engineering, which method ensures that AI models produce structured responses?</p>
+                <input type="radio" name="q17" value="A"> A) Task-oriented prompting<br>
+                <input type="radio" name="q17" value="B"> B) General task prompting<br>
+                <input type="radio" name="q17" value="C"> C) Role-specific prompting<br>
+                <input type="radio" name="q17" value="D"> D) Contextual hint prompting<br>
+            </div>
+
+            <div class="question">
+                <p>18. What does "cd .." do in Linux?</p>
+                <input type="radio" name="q18" value="A"> A) Moves you up one directory level<br>
+                <input type="radio" name="q18" value="B"> B) Moves to the root directory<br>
+                <input type="radio" name="q18" value="C"> C) Creates a new directory<br>
+                <input type="radio" name="q18" value="D"> D) Shows hidden directories<br>
+            </div>
+
+            <div class="question">
+                <p>19. Which Linux command removes a file or directory?</p>
+                <input type="radio" name="q19" value="A"> A) rm<br>
+                <input type="radio" name="q19" value="B"> B) cp<br>
+                <input type="radio" name="q19" value="C"> C) mv<br>
+                <input type="radio" name="q19" value="D"> D) cat<br>
+            </div>
+
+            <div class="question">
+                <p>20. What is the purpose of container orchestration in cloud-native environments?</p>
+                <input type="radio" name="q20" value="A"> A) Manages scaling and deployment of containers<br>
+                <input type="radio" name="q20" value="B"> B) Stops containers after a task<br>
+                <input type="radio" name="q20" value="C"> C) Automates creation of cloud databases<br>
+                <input type="radio" name="q20" value="D"> D) Tracks network usage of containers<br>
+            </div>
+
+            <div class="question">
+                <p>21. What does the "mv" command do in Linux?</p>
+                <input type="radio" name="q21" value="A"> A) Moves or renames files<br>
+                <input type="radio" name="q21" value="B"> B) Copies files<br>
+                <input type="radio" name="q21" value="C"> C) Deletes directories<br>
+                <input type="radio" name="q21" value="D"> D) Displays file permissions<br>
+            </div>
+
+            <div class="question">
+                <p>22. What is the benefit of Few-Shot prompting over Zero-Shot prompting?</p>
+                <input type="radio" name="q22" value="A"> A) Provides more accurate results with minimal examples<br>
+                <input type="radio" name="q22" value="B"> B) Generates random responses<br>
+                <input type="radio" name="q22" value="C"> C) Allows extensive data<br>
+                <input type="radio" name="q22" value="D"> D) Requires more training data<br>
+            </div>
+
+            <div class="question">
+                <p>23. In Linux, what does the "touch" command do?</p>
+                <input type="radio" name="q23" value="A"> A) Creates a new file<br>
+                <input type="radio" name="q23" value="B"> B) Moves a file<br>
+                <input type="radio" name="q23" value="C"> C) Changes the file permissions<br>
+                <input type="radio" name="q23" value="D"> D) Deletes a file<br>
+            </div>
+
+            <div class="question">
+                <p>24. How does Docker help in cloud-native application development?</p>
+                <input type="radio" name="q24" value="A"> A) Provides isolated environments for applications<br>
+                <input type="radio" name="q24" value="B"> B) Builds databases automatically<br>
+                <input type="radio" name="q24" value="C"> C) Makes systems faster<br>
+                <input type="radio" name="q24" value="D"> D) Replicates file systems<br>
+            </div>
+
+            <div class="question">
+                <p>25. What does the "pwd" command do in Linux?</p>
+                <input type="radio" name="q25" value="A"> A) Prints the current working directory<br>
+                <input type="radio" name="q25" value="B"> B) Displays file permissions<br>
+                <input type="radio" name="q25" value="C"> C) Moves files<br>
+                <input type="radio" name="q25" value="D"> D) Copies files<br>
+            </div>
+
+            <button type="button" onclick="submitQuiz()">Submit Quiz</button>
+            <h2>Results:</h2>
+            <div id="results"></div>
+        </form>
+    </div>
+    <script>
+        function submitQuiz() {
+            // Define the correct answers
+            const correctAnswers = {
+                q1: 'C',
+                q2: 'B',
+                q3: 'A',
+                q4: 'A',
+                q5: 'B',
+                q6: 'A',
+                q7: 'A',
+                q8: 'A',
+                q9: 'B',
+                q10: 'A',
+                q11: 'B',
+                q12: 'B',
+                q13: 'A',
+                q14: 'A',
+                q15: 'A',
+                q16: 'A',
+                q17: 'A',
+                q18: 'A',
+                q19: 'A',
+                q20: 'A',
+                q21: 'A',
+                q22: 'A',
+                q23: 'A',
+                q24: 'A',
+                q25: 'A'
+                
+                // Add the correct answers for remaining questions
+            };
+
+            const form = document.getElementById('quizForm');
+            const resultsDiv = document.getElementById('results');
+            let score = 0;
+            let total = 50;
+            let marksPerQuestion = total / 25;
+
+            resultsDiv.innerHTML = ''; // Clear previous results
+
+            for (let i = 1; i <= 25; i++) {  // Change '2' to 25 for all questions
+                const question = `q${i}`;
+                const userAnswer = form[question].value;
+                
+                if (userAnswer === correctAnswers[question]) {
+                    score += marksPerQuestion;
+                    resultsDiv.innerHTML += `<p class="result">Question ${i}: Correct</p>`;
+                } else {
+                    resultsDiv.innerHTML += `<p class="wrong">Question ${i}: Wrong (Correct Answer: ${correctAnswers[question]})</p>`;
+                }
+            }
+
+            resultsDiv.innerHTML += `<h3>Your Score: ${score} / ${total}</h3>`;
+        }
+    </script>
+</body>
+</html>

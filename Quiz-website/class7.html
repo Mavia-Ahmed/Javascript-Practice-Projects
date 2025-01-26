@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIAIC Class 07 Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .question {
+            margin-bottom: 15px;
+        }
+        .result {
+            font-weight: bold;
+            color: green;
+        }
+        .wrong {
+            color: red;
+        }
+        button {
+            display: block;
+            margin: auto;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #results {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>PIAIC Class 07 Quiz</h1>
+        <form id="quizForm">
+            <!-- Questions 1 - 10 -->
+            <div class="question">
+                <p>1. What is one key benefit of using Google Colab?</p>
+                <input type="radio" name="q1" value="A"> A) Requires high-end local hardware<br>
+                <input type="radio" name="q1" value="B"> B) No local errors; runs in the cloud<br>
+                <input type="radio" name="q1" value="C"> C) Doesn't support Python<br>
+                <input type="radio" name="q1" value="D"> D) Only supports basic computations<br>
+            </div>
+
+            <div class="question">
+                <p>2. What feature does Google Colab provide for machine learning tasks?</p>
+                <input type="radio" name="q2" value="A"> A) Limited internet speed<br>
+                <input type="radio" name="q2" value="B"> B) 16 GB VRAM and GPUs<br>
+                <input type="radio" name="q2" value="C"> C) No access to external data sources<br>
+                <input type="radio" name="q2" value="D"> D) No GPU support<br>
+            </div>
+
+            <div class="question">
+                <p>3. What is the purpose of the Play button in Google Colab?</p>
+                <input type="radio" name="q3" value="A"> A) To delete a cell<br>
+                <input type="radio" name="q3" value="B"> B) To run the code inside a cell<br>
+                <input type="radio" name="q3" value="C"> C) To edit the code<br>
+                <input type="radio" name="q3" value="D"> D) To add new Markdown cells<br>
+            </div>
+
+            <div class="question">
+                <p>4. How can you create a new notebook in Google Colab?</p>
+                <input type="radio" name="q4" value="A"> A) Through Google Sheets<br>
+                <input type="radio" name="q4" value="B"> B) From Google Drive, click New > More > Google Colaboratory<br>
+                <input type="radio" name="q4" value="C"> C) Using MS Word<br>
+                <input type="radio" name="q4" value="D"> D) By installing it locally<br>
+            </div>
+
+            <div class="question">
+                <p>5. What is a GPU's role in machine learning tasks?</p>
+                <input type="radio" name="q5" value="A"> A) Accelerates computations<br>
+                <input type="radio" name="q5" value="B"> B) Stores large datasets<br>
+                <input type="radio" name="q5" value="C"> C) Formats machine learning code<br>
+                <input type="radio" name="q5" value="D"> D) Saves memory<br>
+            </div>
+
+            <div class="question">
+                <p>6. Which of the following is true about Colab Pro?</p>
+                <input type="radio" name="q6" value="A"> A) It’s free with limited runtime<br>
+                <input type="radio" name="q6" value="B"> B) It costs $9.99/month and offers faster GPUs<br>
+                <input type="radio" name="q6" value="C"> C) It doesn’t offer GPU support<br>
+                <input type="radio" name="q6" value="D"> D) It offers only CPUs<br>
+            </div>
+
+            <div class="question">
+                <p>7. What is the function of the "+Code" button in Google Colab?</p>
+                <input type="radio" name="q7" value="A"> A) Adds a new text cell<br>
+                <input type="radio" name="q7" value="B"> B) Deletes a cell<br>
+                <input type="radio" name="q7" value="C"> C) Adds a new code cell<br>
+                <input type="radio" name="q7" value="D"> D) Runs a Markdown cell<br>
+            </div>
+
+            <div class="question">
+                <p>8. How do you enable GPU in Google Colab?</p>
+                <input type="radio" name="q8" value="A"> A) Runtime > Change runtime type > Select GPU<br>
+                <input type="radio" name="q8" value="B"> B) File > New Notebook<br>
+                <input type="radio" name="q8" value="C"> C) Code > Select GPU<br>
+                <input type="radio" name="q8" value="D"> D) Runtime > Reset runtime<br>
+            </div>
+
+            <div class="question">
+                <p>9. Which Python code checks for available GPUs in Google Colab?</p>
+                <input type="radio" name="q9" value="A"> A) `print("Num GPUs Available: ", len(tf.config.experimental.list_physical_devices('GPU')))`<br>
+                <input type="radio" name="q9" value="B"> B) `import gpu as g`<br>
+                <input type="radio" name="q9" value="C"> C) `gpu.count()`<br>
+                <input type="radio" name="q9" value="D"> D) `print.gpu()`<br>
+            </div>
+
+            <div class="question">
+                <p>10. What is a "Syntax Error" in Python?</p>
+                <input type="radio" name="q10" value="A"> A) When the code runs with bugs<br>
+                <input type="radio" name="q10" value="B"> B) A mistake in the structure of your code<br>
+                <input type="radio" name="q10" value="C"> C) When the code does not print output<br>
+                <input type="radio" name="q10" value="D"> D) None of the above<br>
+            </div>
+
+            <div class="question">
+                <p>11. How do you mount Google Drive in Google Colab?</p>
+                <input type="radio" name="q11" value="A"> A) !drive mount<br>
+                <input type="radio" name="q11" value="B"> B) drive.mount('/content/drive')<br>
+                <input type="radio" name="q11" value="C"> C) import drive.mount<br>
+                <input type="radio" name="q11" value="D"> D) mount.drive()<br>
+            </div>
+            
+            <div class="question">
+                <p>12. What is the purpose of pip in Python?</p>
+                <input type="radio" name="q12" value="A"> A) A package manager to install Python libraries<br>
+                <input type="radio" name="q12" value="B"> B) A library to manage cloud storage<br>
+                <input type="radio" name="q12" value="C"> C) A debugging tool<br>
+                <input type="radio" name="q12" value="D"> D) An operating system management tool<br>
+            </div>
+            
+            <div class="question">
+                <p>13. How can you install an external library in Google Colab using pip?</p>
+                <input type="radio" name="q13" value="A"> A) !install package<br>
+                <input type="radio" name="q13" value="B"> B) !pip install package_name<br>
+                <input type="radio" name="q13" value="C"> C) pip.import<br>
+                <input type="radio" name="q13" value="D"> D) pip.package_install<br>
+            </div>
+            
+            <div class="question">
+                <p>14. What is the role of Markdown in Google Colab?</p>
+                <input type="radio" name="q14" value="A"> A) To format text and add code<br>
+                <input type="radio" name="q14" value="B"> B) To run Python code<br>
+                <input type="radio" name="q14" value="C"> C) To create a new notebook<br>
+                <input type="radio" name="q14" value="D"> D) To add images<br>
+            </div>
+            
+            <div class="question">
+                <p>15. What is a NameError in Python?</p>
+                <input type="radio" name="q15" value="A"> A) Raised when a variable is not defined<br>
+                <input type="radio" name="q15" value="B"> B) Raised when dividing by zero<br>
+                <input type="radio" name="q15" value="C"> C) Raised when accessing a non-existing file<br>
+                <input type="radio" name="q15" value="D"> D) Raised when a variable is assigned twice<br>
+            </div>
+            
+            <div class="question">
+                <p>16. How do you pull external data from GitHub in Google Colab?</p>
+                <input type="radio" name="q16" value="A"> A) git pull repository<br>
+                <input type="radio" name="q16" value="B"> B) !git clone https://github.com/username/repository.git<br>
+                <input type="radio" name="q16" value="C"> C) pull github<br>
+                <input type="radio" name="q16" value="D"> D) !import repository<br>
+            </div>
+            
+            <div class="question">
+                <p>17. What is the correct code to read a Google Sheet in Google Colab using Pandas?</p>
+                <input type="radio" name="q17" value="A"> A) import google_sheet as gs<br>
+                <input type="radio" name="q17" value="B"> B) sheet = pd.read_csv(url)<br>
+                <input type="radio" name="q17" value="C"> C) read_google_sheet()<br>
+                <input type="radio" name="q17" value="D"> D) sheet.open_csv(url)<br>
+            </div>
+            
+            <div class="question">
+                <p>18. What command allows you to check the list of installed Python packages in Google Colab?</p>
+                <input type="radio" name="q18" value="A"> A) !pip install list<br>
+                <input type="radio" name="q18" value="B"> B) !pip list<br>
+                <input type="radio" name="q18" value="C"> C) list_packages()<br>
+                <input type="radio" name="q18" value="D"> D) pip_show()<br>
+            </div>
+            
+            <div class="question">
+                <p>19. Which statement correctly initializes TensorFlow in Google Colab?</p>
+                <input type="radio" name="q19" value="A"> A) import tensorflow as tf<br>
+                <input type="radio" name="q19" value="B"> B) import tf.tensorflow<br>
+                <input type="radio" name="q19" value="C"> C) import tensorflow.tf as tf<br>
+                <input type="radio" name="q19" value="D"> D) tf_initialize()<br>
+            </div>
+            
+            <div class="question">
+                <p>20. How do you check for available GPUs using TensorFlow in Google Colab?</p>
+                <input type="radio" name="q20" value="A"> A) tf.gpu_check()<br>
+                <input type="radio" name="q20" value="B"> B) len(tf.config.experimental.list_physical_devices('GPU'))<br>
+                <input type="radio" name="q20" value="C"> C) !gpu_list<br>
+                <input type="radio" name="q20" value="D"> D) tf.check_gpu()<br>
+            </div>
+
+            <div class="question">
+                <p>21. What is the correct way to load a dataset from a CSV file in Pandas?</p>
+                <input type="radio" name="q21" value="A"> A) load.csv(file)<br>
+                <input type="radio" name="q21" value="B"> B) pd.read_csv('file.csv')<br>
+                <input type="radio" name="q21" value="C"> C) pd.load_csv('file')<br>
+                <input type="radio" name="q21" value="D"> D) pd.load('file')<br>
+            </div>
+            
+            <div class="question">
+                <p>22. How do you create a line plot using Matplotlib in Python?</p>
+                <input type="radio" name="q22" value="A"> A) plt.plot(x, y)<br>
+                <input type="radio" name="q22" value="B"> B) plt.lineplot(x, y)<br>
+                <input type="radio" name="q22" value="C"> C) plot.line(x, y)<br>
+                <input type="radio" name="q22" value="D"> D) lineplot(plt, x, y)<br>
+            </div>
+            
+            <div class="question">
+                <p>23. What command in TensorFlow allows you to define a sequential neural network model?</p>
+                <input type="radio" name="q23" value="A"> A) tf.keras.Sequential()<br>
+                <input type="radio" name="q23" value="B"> B) tf.define_model()<br>
+                <input type="radio" name="q23" value="C"> C) tf.keras.layer_sequential()<br>
+                <input type="radio" name="q23" value="D"> D) tf.network.Sequential()<br>
+            </div>
+            
+            <div class="question">
+                <p>24. Which method is used to display the first few rows of a DataFrame in Pandas?</p>
+                <input type="radio" name="q24" value="A"> A) df.first()<br>
+                <input type="radio" name="q24" value="B"> B) df.head()<br>
+                <input type="radio" name="q24" value="C"> C) df.show()<br>
+                <input type="radio" name="q24" value="D"> D) df.rows()<br>
+            </div>
+            
+            <div class="question">
+                <p>25. What is the correct way to display a graph in Google Colab using Matplotlib?</p>
+                <input type="radio" name="q25" value="A"> A) plt.show()<br>
+                <input type="radio" name="q25" value="B"> B) graph.show()<br>
+                <input type="radio" name="q25" value="C"> C) plt.display()<br>
+                <input type="radio" name="q25" value="D"> D) graph.display()<br>
+            </div>
+
+            <button type="button" onclick="submitQuiz()">Submit Quiz</button>
+            <h2>Results:</h2>
+            <div id="results"></div>
+        </form>
+    </div>
+    <script>
+        function submitQuiz() {
+            // Define the correct answers
+            const correctAnswers = {
+                q1: 'B',
+                q2: 'B',
+                q3: 'B',
+                q4: 'B',
+                q5: 'A',
+                q6: 'B',
+                q7: 'C',
+                q8: 'A',
+                q9: 'A',
+                q10: 'B',
+                q11: 'B',
+                q12: 'A',
+                q13: 'B',
+                q14: 'A',
+                q15: 'A',
+                q16: 'B',
+                q17: 'B',
+                q18: 'B',
+                q19: 'A',
+                q20: 'B',
+                q21: 'B',
+                q22: 'A',
+                q23: 'A',
+                q24: 'B',
+                q25: 'A'
+                // Add the correct answers for remaining questions
+            };
+
+            const form = document.getElementById('quizForm');
+            const resultsDiv = document.getElementById('results');
+            let score = 0;
+            let total = 50;
+            let marksPerQuestion = total / 25;
+
+            resultsDiv.innerHTML = ''; // Clear previous results
+
+            for (let i = 1; i <= 25; i++) {  // Change '2' to 25 for all questions
+                const question = `q${i}`;
+                const userAnswer = form[question].value;
+                
+                if (userAnswer === correctAnswers[question]) {
+                    score += marksPerQuestion;
+                    resultsDiv.innerHTML += `<p class="result">Question ${i}: Correct</p>`;
+                } else {
+                    resultsDiv.innerHTML += `<p class="wrong">Question ${i}: Wrong (Correct Answer: ${correctAnswers[question]})</p>`;
+                }
+            }
+
+            resultsDiv.innerHTML += `<h3>Your Score: ${score} / ${total}</h3>`;
+        }
+    </script>
+</body>
+</html>
