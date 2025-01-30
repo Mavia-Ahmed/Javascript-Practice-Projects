@@ -3,7 +3,7 @@
 A sleek and interactive **Typing Speed Tester** built using **HTML, CSS, and JavaScript**. This app calculates your **Words Per Minute (WPM)** and **accuracy** while you practice typing with random sentences.
 
 ## 🚀 Live Demo
-🔗 **[Try it Now](#)** _(Add your live deployment link here)_
+🔗 **[Try it Now](#)** _(https://eloquent-nougat-940237.netlify.app/)_
 
 ---
 
