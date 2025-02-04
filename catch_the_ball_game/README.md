@@ -15,3 +15,10 @@ Catch the Ball is a simple yet fun web-based game where the player controls a ba
 - **High Score:** The highest score is saved using local storage.
 - **Game Over Condition:** If a ball is missed, the game ends.
 - **Play Again Option:** Allows players to restart the game.
+
+## How to Play
+1. Select a difficulty level.
+2. Move the basket left or right using arrow keys to catch the balls.
+3. Earn points for every ball caught.
+4. If a ball is missed, the game ends and shows your final score.
+5. Try to beat your highest score!
