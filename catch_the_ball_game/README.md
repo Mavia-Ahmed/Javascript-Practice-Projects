@@ -22,3 +22,8 @@ Catch the Ball is a simple yet fun web-based game where the player controls a ba
 3. Earn points for every ball caught.
 4. If a ball is missed, the game ends and shows your final score.
 5. Try to beat your highest score!
+
+## Technologies Used
+- **HTML** for structure
+- **CSS** for styling
+- **JavaScript** for game logic
