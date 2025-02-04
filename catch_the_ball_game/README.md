@@ -39,3 +39,5 @@ Catch the Ball is a simple yet fun web-based game where the player controls a ba
 - Add sound effects.
 - Introduce power-ups and obstacles.
 - Improve graphics with animations.
+
+Enjoy the game! 🎮
