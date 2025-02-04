@@ -34,3 +34,8 @@ Catch the Ball is a simple yet fun web-based game where the player controls a ba
    git clone https://github.com/your-username/catch-the-ball.git
    ```
 2. Open the `index.html` file in a web browser.
+
+## Future Improvements
+- Add sound effects.
+- Introduce power-ups and obstacles.
+- Improve graphics with animations.
