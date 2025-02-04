@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catch the Ball Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Catch the Ball Game</h1>
+    <div class="controls">
+        <button onclick="setDifficulty('easy')">Easy</button>
+        <button onclick="setDifficulty('medium')">Medium</button>
+        <button onclick="setDifficulty('hard')">Hard</button>
+    </div>
+    <canvas id="gameCanvas" width="400" height="500"></canvas>
+    <p>Use Left and Right Arrow keys to move the basket.</p>
+    <p id="highScore">High Score: 0</p>
+    <p id="gameOverScreen">Game Over! <button onclick="restartGame()">Play Again</button></p>
+    
+    <script src="script.js"></script>
+</body>
+</html>

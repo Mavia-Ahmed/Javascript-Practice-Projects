@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+    background-color: #f5f5f5;
+}
+canvas {
+    background: lightblue;
+    display: block;
+    margin: auto;
+    border: 2px solid black;
+}
+.controls {
+    margin: 10px;
+}
+.controls button{
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #123814;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.controls button:hover {
+    background-color: #4CAF50;
+}
+#gameOverScreen {
+    display: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}
+#gameOverScreen button{
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
