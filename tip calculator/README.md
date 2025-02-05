@@ -7,3 +7,8 @@ A simple Tip Calculator that helps users calculate the tip amount based on the b
 - Choose the tip percentage.
 - Calculate and display the tip amount.
 - Responsive and user-friendly design.
+
+## 🛠️ Technologies Used
+- HTML5
+- CSS3
+- JavaScript
