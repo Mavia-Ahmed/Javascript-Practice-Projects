@@ -2,8 +2,8 @@
 
 A simple Tip Calculator that helps users calculate the tip amount based on the bill and tip percentage.
 
-## Live website
-
+## Live Demo
+[See live website](https://aquamarine-peony-bf72eb.netlify.app/)
 
 ## 🚀 Features
 - Input the total bill amount.
