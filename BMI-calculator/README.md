@@ -15,3 +15,9 @@ A Body Mass Index (BMI) Calculator that calculates BMI based on weight and heigh
 - HTML5
 - CSS3
 - JavaScript
+
+## 📌 Usage
+1. Open the `index.html` file in your browser.
+2. Enter your weight (in kg).
+3. Enter your height (in meters).
+4. Click the "Calculate BMI" button to see your BMI result.
