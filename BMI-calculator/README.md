@@ -24,3 +24,6 @@ A Body Mass Index (BMI) Calculator that calculates BMI based on weight and heigh
 
 ## 📜 License
 This project is open-source and available under the **MIT License**.
+
+## 🙌 Contributing
+Feel free to fork this repository and improve the project! PRs are welcome.
