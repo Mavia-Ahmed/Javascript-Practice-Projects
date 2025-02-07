@@ -10,3 +10,8 @@ A Body Mass Index (BMI) Calculator that calculates BMI based on weight and heigh
 - Calculates and displays BMI.
 - Provides a BMI category (Underweight, Normal, Overweight, etc.).
 - Responsive for all devices.
+
+## 🛠️ Technologies Used
+- HTML5
+- CSS3
+- JavaScript
