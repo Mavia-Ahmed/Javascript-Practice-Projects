@@ -21,3 +21,6 @@ A Body Mass Index (BMI) Calculator that calculates BMI based on weight and heigh
 2. Enter your weight (in kg).
 3. Enter your height (in meters).
 4. Click the "Calculate BMI" button to see your BMI result.
+
+## 📜 License
+This project is open-source and available under the **MIT License**.
