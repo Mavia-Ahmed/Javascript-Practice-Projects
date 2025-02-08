@@ -6,3 +6,6 @@ A fully responsive **Image Slider Gallery** that allows users to **navigate thro
 
 ✅ **6 Images Displayed at a Time**  
 ✅ **Smooth Next & Previous Navigation** 
+✅ **Works Even If Images Are Not Exactly Multiples of 6**  
+✅ **Images Are Small by Default & Expand on Hover/Touch**  
+✅ **Fully Responsive for Desktop & Mobile** 
