@@ -11,3 +11,5 @@ A fully responsive **Image Slider Gallery** that allows users to **navigate thro
 ✅ **Fully Responsive for Desktop & Mobile** 
 
 ## 🛠️ Technologies Used 
+
+- **HTML5** 
