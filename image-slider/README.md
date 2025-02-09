@@ -24,3 +24,5 @@ A fully responsive **Image Slider Gallery** that allows users to **navigate thro
 git clone https://github.com/your-username/image-slider-gallery.git
 ```
 2️⃣ Open the index.html file in your browser
+    cd image-slider-gallery
+    open index.html  # Or just double-click the file
