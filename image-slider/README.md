@@ -15,3 +15,7 @@ A fully responsive **Image Slider Gallery** that allows users to **navigate thro
 - **HTML5** 
 - **CSS3 (Responsive & Animations)**  
 - **JavaScript (Dynamic Image Navigation)**  
+
+
+## 📌 How to Use?  
+
