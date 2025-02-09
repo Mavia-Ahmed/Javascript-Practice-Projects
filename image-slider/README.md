@@ -27,3 +27,4 @@ git clone https://github.com/your-username/image-slider-gallery.git
     cd image-slider-gallery
     open index.html  # Or just double-click the file
 3️⃣ Navigate with the Next & Previous buttons
+4️⃣ Hover (Mouse) or Tap (Mobile) on an Image to Expand It
