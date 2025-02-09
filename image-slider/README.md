@@ -30,3 +30,7 @@ git clone https://github.com/Mavia-Ahmed/image-slider-gallery.git
 3️⃣ Navigate with the Next & Previous buttons
 
 4️⃣ Hover (Mouse) or Tap (Mobile) on an Image to Expand It
+
+## 📜 License
+This project is open-source and available under the **MIT License**.
+
