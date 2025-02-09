@@ -34,3 +34,7 @@ git clone https://github.com/Mavia-Ahmed/image-slider-gallery.git
 ## 📜 License
 This project is open-source and available under the **MIT License**.
 
+---
+
+## 🙌 Contributing
+Feel free to fork this repository and improve the project! PRs are welcome.
