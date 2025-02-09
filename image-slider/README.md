@@ -19,3 +19,5 @@ A fully responsive **Image Slider Gallery** that allows users to **navigate thro
 
 ## 📌 How to Use?  
 
+1️⃣ **Clone this repository**  
+
