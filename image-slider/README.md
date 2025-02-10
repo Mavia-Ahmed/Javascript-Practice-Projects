@@ -21,7 +21,7 @@ A fully responsive **Image Slider Gallery** that allows users to **navigate thro
 
 1️⃣ **Clone this repository**  
 ```sh
-git clone https://github.com/Mavia-Ahmed/Javascript-Practice-Projects/image-slider.git
+git clone https://github.com/Mavia-Ahmed/Javascript-Practice-Projects/image-slider/image-slider.git
 ```
 2️⃣ Open the index.html file in your browser
     cd image-slider-gallery
