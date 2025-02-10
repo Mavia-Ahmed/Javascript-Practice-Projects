@@ -26,7 +26,7 @@ A simple Tip Calculator that helps users calculate the tip amount based on the b
 
 1️⃣ **Clone this repository**  
 ```sh
-git clone https://github.com/Mavia-Ahmed/tip calculator.git
+git clone https://github.com/Mavia-Ahmed/Javascript-Practice-Projects/tip calculator.git
 ```
 2️⃣ Open the index.html file in your browser
     cd tip calculator
