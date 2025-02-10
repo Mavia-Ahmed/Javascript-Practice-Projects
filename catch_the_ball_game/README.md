@@ -31,7 +31,7 @@ Catch the Ball is a simple yet fun web-based game where the player controls a ba
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/Mavia-Ahmed/Javascript-Practice-Projects/catch-the-ball.git
+   git clone https://github.com/Mavia-Ahmed/Javascript-Practice-Projects/catch_the_ball_game/Game.git
    ```
 2. Open the `index.html` file in a web browser.
 
