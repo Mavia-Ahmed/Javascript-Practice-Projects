@@ -31,3 +31,6 @@ git clone https://github.com/Mavia-Ahmed/tip calculator.git
 2️⃣ Open the index.html file in your browser
     cd tip calculator
     open index.html  # Or just double-click the file
+
+## 📜 License
+This project is open-source and available under the **MIT License**.
