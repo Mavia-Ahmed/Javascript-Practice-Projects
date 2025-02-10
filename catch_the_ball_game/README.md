@@ -43,4 +43,8 @@ Catch the Ball is a simple yet fun web-based game where the player controls a ba
 ## 📜 License
 This project is open-source and available under the **MIT License**.
 
+## 🙌 Contributing
+Feel free to fork this repository and improve the project! PRs are welcome.
+
+
 Enjoy the game! 🎮
