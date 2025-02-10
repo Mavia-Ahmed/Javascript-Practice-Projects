@@ -21,3 +21,13 @@ A simple Tip Calculator that helps users calculate the tip amount based on the b
 2. Enter the bill amount.
 3. Enter the tip percentage.
 4. Click the "Calculate" button to see the tip amount.
+
+## 📌 How to Use?  
+
+1️⃣ **Clone this repository**  
+```sh
+git clone https://github.com/Mavia-Ahmed/tip calculator.git
+```
+2️⃣ Open the index.html file in your browser
+    cd tip calculator
+    open index.html  # Or just double-click the file
