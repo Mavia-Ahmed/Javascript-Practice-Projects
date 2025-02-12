@@ -16,5 +16,10 @@ A simple web-based Expense Tracker to help you manage your finances by adding in
 1. Clone this repository:
    ```bash
    git clone https://github.com/Mavia-Ahmed/Expense-Tracker.git
-```
+   ```
+2. Open the index.html file in your browser
+    cd Expense-Tracker
+    open index.html
+
+
 
