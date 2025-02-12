@@ -1,4 +1,3 @@
-
 ### **To-Do List**
 
 A simple and efficient To-Do List application to help you stay organized and track your tasks.
@@ -21,4 +20,6 @@ Check live project here: "https://beautiful-semifreddo-b85382.netlify.app/"
    git clone https://github.com/Mavia-Ahmed/to-do-list.git
    ```
 
+## 📜 License
+This project is open-source and available under the **MIT License**.
 
