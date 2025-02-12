@@ -22,3 +22,8 @@ A simple quiz website, all the quizes in this website is created using the notes
 ## 📜 License
 This project is open-source and available under the **MIT License**.
 
+
+## 🙌 Contributing
+Feel free to fork this repository and improve the project! PRs are welcome.
+
+
