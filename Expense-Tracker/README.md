@@ -30,3 +30,5 @@ This project is open-source and available under the **MIT License**.
 Feel free to fork this repository and improve the project! PRs are welcome.
 
 
+### 🔗 Connect with Me
+💬 Have suggestions? Reach out to me via GitHub!
