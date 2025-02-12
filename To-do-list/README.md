@@ -23,3 +23,6 @@ Check live project here: "https://beautiful-semifreddo-b85382.netlify.app/"
 ## 📜 License
 This project is open-source and available under the **MIT License**.
 
+## 🙌 Contributing
+Feel free to fork this repository and improve the project! PRs are welcome.
+
