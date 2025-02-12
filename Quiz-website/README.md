@@ -23,6 +23,11 @@ A simple quiz website, all the quizes in this website is created using the notes
 This project is open-source and available under the **MIT License**.
 
 
+### 🔗 Connect with Me
+💬 Have suggestions? Reach out to me via GitHub!
+
+
+
 ## 🙌 Contributing
 Feel free to fork this repository and improve the project! PRs are welcome.
 
