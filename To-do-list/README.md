@@ -3,6 +3,8 @@
 
 A simple and efficient To-Do List application to help you stay organized and track your tasks.
 
+Check live project here: "https://beautiful-semifreddo-b85382.netlify.app/"
+
 ## Features
 - Add tasks with a description.
 - Mark tasks as completed.
@@ -17,5 +19,6 @@ A simple and efficient To-Do List application to help you stay organized and tra
 1. Clone this repository:
    ```bash
    git clone https://github.com/Mavia-Ahmed/to-do-list.git
+   ```
 
-2. Check live project here: "https://beautiful-semifreddo-b85382.netlify.app/"
+
