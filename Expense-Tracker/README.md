@@ -22,4 +22,5 @@ A simple web-based Expense Tracker to help you manage your finances by adding in
     open index.html
 
 
-
+## 📜 License
+This project is open-source and available under the **MIT License**.
