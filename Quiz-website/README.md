@@ -17,3 +17,8 @@ A simple quiz website, all the quizes in this website is created using the notes
    ```bash
    git clone https://github.com/Mavia-Ahmed/Quiz-website.git
    ```
+
+
+## 📜 License
+This project is open-source and available under the **MIT License**.
+
