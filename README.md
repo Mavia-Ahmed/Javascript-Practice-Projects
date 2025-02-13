@@ -22,3 +22,11 @@ Welcome to **JavaScript Practice Projects**! This repository contains multiple b
 - **HTML**  
 - **CSS**  
 - **JavaScript**  
+
+
+## 🎯 How to Use
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Mavia-Ahmed/Javascript-Practice-Projects.git
+   cd Javascript-Practice-Projects
