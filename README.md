@@ -6,3 +6,6 @@ Welcome to **JavaScript Practice Projects**! This repository contains multiple b
 
 1. **To-Do List App** 📝  
    - A simple to-do list where users can add, delete, and mark tasks as completed.
+
+2. **Expense Tracker** 💰  
+   - Helps users track their daily expenses with a simple UI.
