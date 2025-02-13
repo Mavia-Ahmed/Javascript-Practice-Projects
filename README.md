@@ -15,3 +15,10 @@ Welcome to **JavaScript Practice Projects**! This repository contains multiple b
 
 4. **Quiz App** ❓  
    - A quiz application with multiple-choice questions and scoring.
+
+
+## 🛠️ Technologies Used
+
+- **HTML**  
+- **CSS**  
+- **JavaScript**  
