@@ -9,3 +9,9 @@ Welcome to **JavaScript Practice Projects**! This repository contains multiple b
 
 2. **Expense Tracker** 💰  
    - Helps users track their daily expenses with a simple UI.
+
+3. **Calculator** 🧮  
+   - A basic calculator that performs arithmetic operations.
+
+4. **Quiz App** ❓  
+   - A quiz application with multiple-choice questions and scoring.
