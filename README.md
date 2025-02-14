@@ -34,6 +34,6 @@ Welcome to **JavaScript Practice Projects**! This repository contains multiple b
 2. Open any project folder and run the `index.html` file in your browser.
 
 
-##💡 Contributing
+## 💡 Contributing
 
 Feel free to contribute to this repository by improving existing projects or adding new ones! Fork the repo, make your changes, and submit a pull request.
