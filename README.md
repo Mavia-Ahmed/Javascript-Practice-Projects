@@ -37,3 +37,8 @@ Welcome to **JavaScript Practice Projects**! This repository contains multiple b
 ## 💡 Contributing
 
 Feel free to contribute to this repository by improving existing projects or adding new ones! Fork the repo, make your changes, and submit a pull request.
+
+
+## 📩 Contact
+📧 Mavia Ahmed
+🔗 [GitHub Profile](https://github.com/Mavia-Ahmed)
