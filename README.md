@@ -30,3 +30,5 @@ Welcome to **JavaScript Practice Projects**! This repository contains multiple b
    ```sh
    git clone https://github.com/Mavia-Ahmed/Javascript-Practice-Projects.git
    cd Javascript-Practice-Projects
+   ```
+2. Open any project folder and run the `index.html` file in your browser.
