@@ -40,4 +40,4 @@ this is so funny! :joy:
 H ~ 2 ~ 0
 
 ## superscript
-H^2^0
+H^2^
