@@ -10,3 +10,6 @@
 "firsName": "John"
 }
 ```
+
+## footnote
+here's a sentence with a footnote. [^1]
