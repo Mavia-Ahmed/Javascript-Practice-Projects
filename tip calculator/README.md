@@ -34,3 +34,10 @@ term
 
 ## emoji
 this is so funny! :joy:
+
+
+## subscript
+H~2~0
+
+## superscript
+H~2~0
