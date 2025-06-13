@@ -22,3 +22,11 @@ here's a sentence with a footnote. [^1]
 ## definition list
 term
 : definition
+
+## strike through
+~~The world is flat~~
+
+## Task List
+- [x] write the dhfnc
+- [ ] jdjkcbd
+- [ ] dsnvjk,dnv
