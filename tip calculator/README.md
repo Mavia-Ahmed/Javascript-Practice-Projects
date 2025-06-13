@@ -16,4 +16,5 @@ here's a sentence with a footnote. [^1]
 [^1]: this is a footnote
 
 ## heading id
-### My Great Headign {#custom-id}
+### My Great Headign 
+{#custom-id}
