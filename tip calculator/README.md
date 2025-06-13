@@ -18,3 +18,7 @@ here's a sentence with a footnote. [^1]
 ## heading id
 ### My Great Headign 
 {#custom-id}
+
+## definition list
+term
+: definition
