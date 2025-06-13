@@ -1,43 +1,42 @@
-## Making table
-| syntax | Decription |
-| ---------- | ---------- |
-| Header | title |
-| Paragraph | Text |
+# Tip Calculator
 
-## fenced code block
+A simple Tip Calculator that helps users calculate the tip amount based on the bill and tip percentage.
+
+## Live Demo
+[See live website](https://aquamarine-peony-bf72eb.netlify.app/)
+
+## 🚀 Features
+- Input the total bill amount.
+- Choose the tip percentage.
+- Calculate and display the tip amount.
+- Responsive and user-friendly design.
+
+## 🛠️ Technologies Used
+- HTML5
+- CSS3
+- JavaScript
+
+## 📌 Usage
+1. Open the `index.html` file in your browser.
+2. Enter the bill amount.
+3. Enter the tip percentage.
+4. Click the "Calculate" button to see the tip amount.
+
+## 📌 How to Use?  
+
+1️⃣ **Clone this repository**  
+```sh
+git clone https://github.com/Mavia-Ahmed/Javascript-Practice-Projects/tip calculator.git
 ```
-{
-"firsName": "John"
-}
-```
+2️⃣ Open the index.html file in your browser
+    cd tip calculator
+    open index.html  # Or just double-click the file
 
-## footnote
-here's a sentence with a footnote. [^1]
-[^1]: this is a footnote
+## 📜 License
+This project is open-source and available under the **MIT License**.
 
-## heading id
-### My Great Headign 
-{#custom-id}
+## 🙌 Contributing
+Feel free to fork this repository and improve the project! PRs are welcome.
 
-## definition list
-term
-: definition
-
-## strike through
-~~The world is flat~~
-
-## Task List
-- [x] write the dhfnc
-- [ ] jdjkcbd
-- [ ] dsnvjk,dnv
-
-
-## emoji
-this is so funny! :joy:
-
-
-## subscript
-H ~ 2 ~ 0
-
-## superscript
-H^2^
+### 🔗 Connect with Me
+💬 Have suggestions? Reach out to me via GitHub!
